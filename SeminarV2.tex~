@@ -58,7 +58,7 @@ University Leipzig - Master of science - Bioinformatics}
 
 \begin{abstract}
 In here I present a review of research and technologies using asynchronous spike-based processing strategies as can be observed in biological vision.
-The research presented includes a general description of the issue \cite{thorpe_spike-based_2012}, the presentation of a 
+The research presented includes a general description of the issue \cite{thorpe_spike-based_2012}\cite{bialek_reading_1991}, the presentation of a 
 silicon retina \cite{lichtsteiner_128_2008} and a silicon cochlea \cite{}.
 while the common approach to immitate neural networks is simulation on conventional hardware as CPU's and GPU's this review is rather focussed on the 
 efforts being made to reproduce the property of neural structures to work vastly parallel. in special this review will look at the fact that the 
@@ -73,10 +73,10 @@ Studies have shown that such processes can be accomplished in as much as 100ms, 
 show fire faster than every 10 ms and that there are about 10 stages of neurons involved between the photo receptors and the high level 
 neurons, leads to the conclusion that each neuron has in average only time to fire once.
 It is therefore proposed, that rather than the information being only encoded in firing frequencies corresponding to analog values,
-the relative timing of the spikes is also used to encode such information.\cite{thorpe_biological_1989}\cite{bialek_reading_1991}\cite{gerstner_why_1993}
+the relative timing of the spikes is also used to encode such information.
 This idea shas been demonstrated experimentally using recordings from the salamander retina\cite{gollisch_rapid_2008}.
 It is showed by simulation, that it is possible to do state of the art face recognition using an approach, 
-where every neuron is only allowed to fire at most once. \cite{thorpe_spike-based_2012}
+where every neuron is only allowed to fire at most once. \cite{}
 
 As an information processing unit, the biological vision aparatus is an extraordinanry piece of engineering, when it comes to speed.
 Despite the fact that neurons spike at most 100 times per second, and that the condutcion of of spikes through the axons works at about 1$ms^-1$, 
