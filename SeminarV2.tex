@@ -24,16 +24,6 @@
 \voffset 0 cm \hoffset 0 cm \addtolength{\textwidth}{0cm}
 \addtolength{\textheight}{0cm}\addtolength{\leftmargin}{0cm}
 
-%***********************************************************************
-% !!!! USE OF THE SeminarV2 LaTeX STYLE FILE !!!!!
-%***********************************************************************
-%
-% Some commands are inserted in the following .tex example file.  Therefore to
-% set up your Seminar submission, please use this file and modify it to insert
-% your text, rather than staring from a blank .tex file.  In this way, you will
-% have the commands inserted in the right place.
-
-% Edited by Martin Bogdan.
 
 \begin{document}
 %style file for Seminar manuscripts
@@ -48,7 +38,7 @@
 \vspace{.3cm}\\
 %
 % Addresses and institutions
-University Leipzig - Master of science - Bioinformatics}
+University Leipzig - Master of Science in Bioinformatics}
 %
 %***********************************************************************
 % END OF AUTHORS INFORMATION AREA
@@ -59,123 +49,29 @@ University Leipzig - Master of science - Bioinformatics}
 \begin{abstract}
 In here I present a review of research and technologies using asynchronous spike-based processing strategies as can be observed in biological vision.
 The research presented includes a general description of the issue \cite{thorpe_spike-based_2012}, the presentation of a 
-silicon retina \cite{lichtsteiner_128_2008} and a silicon cochlea \cite{}.
-while the common approach to immitate neural networks is simulation on conventional hardware as CPU's and GPU's this review is rather focussed on the 
-efforts being made to reproduce the property of neural structures to work vastly parallel. in special this review will look at the fact that the 
-biological vision system is able to compute relevant information wiith just one spike per neuron, due to the relative timing of spikes.
+silicon retina \cite{lichtsteiner_128_2008} and a silicon cochlea \cite{} as input device as well as the current research on memristive devices \cite{jo_high-density_2009}.
+while the common approach to immitate neural networks is simulation on conventional hardware as CPU's and GPU's this review is rather focussed on the efforts being made to reproduce the property of neural structures to work vastly parallel. in special this review will look at the fact that the biological vision system is able to compute relevant information wiith just one spike per neuron, due to the relative timing of spikes.
 \end{abstract}
 
-\section{Biological Vision and why it is spike-timing-based} 
+\section{Biological Vision and its spike-timing-based component} 
 The speed of biological vision poses a problem for conventional views of how information is processed in the brain.
 As wil be demonstrated, the notion of spike-frequency encoding of information contradicts the speed at which neurons at the highest 
 level of the primate vision system can respond selectively to complex stimuli such as faces.
-Studies have shown that such processes can be accomplished in as much as 100ms, which combined with the fact, that cortical neurons seldomly
-show fire faster than every 10 ms and that there are about 10 stages of neurons involved between the photo receptors and the high level 
-neurons, leads to the conclusion that each neuron has in average only time to fire once.
+Studies have shown that such processes can be accomplished in as much as 100ms, which combined with the fact, that cortical neurons seldomly show fire faster than every 10 ms and that there are about 10 stages of neurons involved between the photo receptors and the high level neurons, leads to the conclusion that each neuron has in average only time to fire once.
 It is therefore proposed, that rather than the information being only encoded in firing frequencies corresponding to analog values,
 the relative timing of the spikes is also used to encode such information.\cite{thorpe_biological_1989}\cite{bialek_reading_1991}\cite{gerstner_why_1993}
-This idea shas been demonstrated experimentally using recordings from the salamander retina\cite{gollisch_rapid_2008}.
-It is showed by simulation, that it is possible to do state of the art face recognition using an approach, 
-where every neuron is only allowed to fire at most once. \cite{thorpe_spike-based_2012}
+This idea has been demonstrated experimentally using recordings from the salamander retina\cite{gollisch_rapid_2008}.
+It is showed by simulation, that it is possible to do state of the art face recognition using an approach 
+where every neuron is only allowed to fire at most once \cite{thorpe_spike-based_2012}.
+\section{Silicon retina}
+conventional digital imaging chips have the immanent property of a framerate, which can be interpreted as a relict from the analog imaging times. All incoming information is collected in the sensor until the next frame is read out. For every frame the imaging chip sends out a pixel map containing the corresponding absolute value of each pixel. This yields massive output data regardless of the actual information((e.g. >1 GB/s from 352x288 pixels at 10 kFPS in \cite{kleinfelder_10000_2001})),   Biological vision on the other hand is not bound to frames but is an event-based (asynchronous) relative intensity vision, meaning that the change of an individual pixel is send as soon as it registered. There are two essential advantages of the latter approach, which are the speed of reception of individual events, and a natural compression, removing redundant information.\\
+With regard to these differences, I present a silicon retina as proposed in \cite{lichtsteiner_128_2008} which is a 128x128 pixel Cmos sensor, that outputs data in Adress-event representation (AER). The device imporves on prior frame based temporal
+difference detection imagers (e.g., \cite{mallik_temporal_2005}) by asynchronously responding to temporal contrast rather than absolute illumination.
+\subsection{Adress-event representation (AER)}
+The modular design of computer hardware leads to bandwith bottlenecks between the individual components. Thus unlike in the nervous system, where data transmision happens through many neurons in parallel, data needs to be multiplexed onto a bus, connecting the modules. The basic idea behind AER is to encode the visual stimuli into adress events that are locally generated by the pixels. In this particular silicon retina the adress event consists of 2x7 bits for the x and y coordinates and one ON/OFF polarity bit.\\
+There has been some other research about AER imaging devices, but apart from that, the field of AER devices is largely unexplored. Computer vision is only emerging now that computer power is sufficient to deal with the incoming information, so there has been little need for asynchronous data.
+\section{Memristive devices}
 
-As an information processing unit, the biological vision aparatus is an extraordinanry piece of engineering, when it comes to speed.
-Despite the fact that neurons spike at most 100 times per second, and that the condutcion of of spikes through the axons works at about 1$ms^-1$, 
-we can recognize faces after 100 ms only. 
-considering, that in the process of grasping an image, there are about 10 stages of neurons between the photoreceptors 
-and the end of the visual system, means that each neuron has 10 ms to reach a conclusion
-
-Now the true power of biological brains comes from the highly interconnected gross of neurons, 
-And engineers are stil far from constructing something equivalent on silicon basis
-\section{memristive devices}
-
-This is a sample file. Please use this file to correctly typeset a
-submission to the Seminar conference. The associated pdf file will
-help you to have an idea of what your paper should look like.
-
-\subsection{Page format and margins}
-Please avoid using DVI2PDF or PS2PDF converters: some undesired
-shifting/scaling may occur when using these programs
-It is strongly recommended to use the DVIPS converters. 
-%
-Check that you have set the paper size to A4 (and NOT to letter) in your
-dvi2ps converter, in Adobe Acrobat if you use it, and in any printer driver
-that you could use.  You also have to disable the 'scale to fit paper' option
-of your printer driver.
-%
-In any case, please check carefully that the final size of the top and
-bottom margins is 5.2 cm and of the left and right margins is 4.4 cm.
-%t is your responsibility to verify this important requirement.  If these margin requirements and not fulfilled at the end of your file generation process, please use the commands at the beginning of the SeminarV2.tex file to correct them.  Otherwise, please do not modify these commands.
-
-
-\subsection{Additional packages and functions}
-
-Update the sample file according to your text. You can add
-packages or declare new \LaTeX\ functions if and only if there is no conflict between your packages and the SeminarV2.cls style file.
-
-\subsection{Style information}
-
-\subsubsection{Page numbers}
-Please do not add page numbers to this style; page numbers will be added by the publisher.
-\subsubsection{Page headings}
-Do not add headings to your document.
-\subsection{Mathematics}
-You may include additional packages for typesetting
-algorithms, mathematical formula or to define new operators and environments
-if and only if there is no conflict with the SeminarV2.cls
-file.
-
-It is recommended to avoid the numbering of equations when not
-necessary. When dealing with equation arrays, it could be
-necessary to label several (in)equalities. You can do it using the
-`$\backslash$stackrel' operator (see the SeminarV2.tex source file);
-example:
-
-\begin{eqnarray}
-c&=&|d|+|e|\nonumber\\
-&\stackrel{\text{(a)}}{=}&d+e\nonumber\\
-&\stackrel{\text{(b)}}{\geq}&\sqrt{f}\enspace,
-\end{eqnarray}
-\noindent where the equality (a) results from the fact that both
-$d$ and $e$ are positive while (b) comes from the definition of
-$f$.
-
-\subsection{Tables and figures}
-
-Figure \ref{Fig:MV} shows an example of figure and related
-caption.  Do not use too small symbols and lettering in your
-figures.  Warning: your paper will be printed in black and white
-in the proceedings.  You may insert color figures, but it is your
-responsibility to check that they print correctly in black and
-white.  The color version will be kept in the Seminar electronic
-proceedings available on the web.
-
-\begin{figure}[ht]
-\centering
-%\includegraphics[scale=0.5]{any_question.eps}
-\mycaption{Any questions?\label{Fig:MV}}
-\end{figure}
-
-Table \ref{Tab:AgeWeight} shows an example of table.
-
-\begin{table}[h!]
-  \centering
-  \begin{tabular}{|c|c|c|}
-    \hline
-    ID & age & weight \\
-    \hline
-    1& 15 & 65 \\
-    2& 24 & 74\\
-    3& 18 & 69 \\
-    4& 32 & 78 \\
-    \hline
-  \end{tabular}
-  \mycaption{Age and weight of people.\label{Tab:AgeWeight}}
-\end{table}
-
-\section{Citation}
-This SeminarV2.tex file defines how to insert references, both for
-BiBTeX and non-BiBTeX users.  Please read the instructions in this
-file.
 
 % ****************************************************************************
 % BIBLIOGRAPHY AREA

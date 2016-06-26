@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.1.28)  24 JUN 2016 12:38
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2015.3.23)  26 JUN 2016 14:28
 entering extended mode
  %&-line parsing enabled.
 **SeminarV2.tex
@@ -8,13 +8,7 @@ Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
 yphenation, french, basque, ngerman, german, german-x-2009-06-19, ngerman-x-200
 9-06-19, ibycus, monogreek, greek, ancientgreek, latin, spanish, galician, cata
 lan, loaded.
-(./SeminarV2.cls
-
-LaTeX Warning: You have requested document class `SeminarV2',
-               but the document class provides `esann'.
-
-Document Class: esann 1999/01/07 v1.4a Standard LaTeX document class
-(/usr/share/texmf-texlive/tex/latex/base/size10.clo
+(./SeminarV2.cls (/usr/share/texmf-texlive/tex/latex/base/size10.clo
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -147,54 +141,83 @@ LaTeX Info: Redefining \cite on input line 694.
 ) (./SeminarV2.aux)
 \openout1 = `SeminarV2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Try loading font information for U+msa on input line 57.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Try loading font information for U+msa on input line 47.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 57.
+LaTeX Font Info:    Try loading font information for U+msb on input line 47.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-) [1
+)
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./SeminarV2.bbl) [3] 
-(./SeminarV2.aux) ) 
+Package natbib Warning: Citation `jo_high-density_2009' on page 1 undefined on 
+input line 52.
+
+
+Package natbib Warning: Citation `kleinfelder_10000_2001' on page 1 undefined o
+n input line 67.
+
+
+Package natbib Warning: Citation `mallik_temporal_2005' on page 1 undefined on 
+input line 69.
+
+[1
+
+] (./SeminarV2.bbl
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8   {\em Computer {Vision} â€
+                               “ {ECCV} 2012. {Workshops} and {Demonstration...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `latin1'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8   {\em Computer {Vision} â€“
+                                 {ECCV} 2012. {Workshops} and {Demonstration...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+)
+
+Package natbib Warning: There were undefined citations.
+
+[2] (./SeminarV2.aux) ) 
 Here is how much of TeX's memory you used:
- 1861 strings out of 494850
- 21349 string characters out of 1175989
- 74867 words of memory out of 3000000
- 5075 multiletter control sequences out of 15000+50000
- 11264 words of font info for 43 fonts, out of 3000000 for 9000
+ 1869 strings out of 494851
+ 21743 string characters out of 1176012
+ 75819 words of memory out of 3000000
+ 5085 multiletter control sequences out of 15000+50000
+ 9864 words of font info for 37 fonts, out of 3000000 for 9000
  99 hyphenation exceptions out of 8191
- 27i,10n,24p,570b,239s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmb
-x10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></u
-sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/tex
-mf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/
-fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1
-/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
-onts/cm/cmr7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.
-pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-texlive/fonts/
-type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/type1/publi
-c/amsfonts/cm/cmti8.pfb>
-Output written on SeminarV2.pdf (3 pages, 165412 bytes).
-PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 27i,7n,24p,917b,205s stack positions out of 5000i,500n,10000p,200000b,50000s
 
+Output written on SeminarV2.dvi (2 pages, 8084 bytes).

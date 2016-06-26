@@ -1,5 +1,39 @@
 \begin{thebibliography}{1}
 
+\bibitem{thorpe_spike-based_2012}
+Simon~J. Thorpe.
+\newblock Spike-{Based} {Image} {Processing}: {Can} {We} {Reproduce}
+  {Biological} {Vision} in {Hardware}?
+\newblock In Andrea Fusiello, Vittorio Murino, and Rita Cucchiara, editors,
+  {\em Computer {Vision} – {ECCV} 2012. {Workshops} and {Demonstrations}},
+  number 7583 in Lecture {Notes} in {Computer} {Science}, pages 516--521.
+  Springer Berlin Heidelberg, October 2012.
+\newblock DOI: 10.1007/978-3-642-33863-2\_53.
+
+\bibitem{lichtsteiner_128_2008}
+P.~Lichtsteiner, C.~Posch, and T.~Delbruck.
+\newblock A 128 times; 128 120 {dB} 15 \#956;s {Latency} {Asynchronous}
+  {Temporal} {Contrast} {Vision} {Sensor}.
+\newblock {\em IEEE Journal of Solid-State Circuits}, 43(2):566--576, February
+  2008.
+
+\bibitem{thorpe_biological_1989}
+Simon~J. Thorpe and Michel Imbert.
+\newblock Biological constraints on connectionist modelling.
+\newblock In {\em Connectionism in {Perspective}}, pages 63--92. Elsevier,
+  1989.
+
+\bibitem{bialek_reading_1991}
+W.~Bialek, F.~Rieke, R.~R. de~Ruyter~van Steveninck, and D.~Warland.
+\newblock Reading a neural code.
+\newblock {\em Science (New York, N.Y.)}, 252(5014):1854--1857, June 1991.
+
+\bibitem{gerstner_why_1993}
+W.~Gerstner, R.~Ritz, and J.~L. van Hemmen.
+\newblock Why spikes? {Hebbian} learning and retrieval of time-resolved
+  excitation patterns.
+\newblock {\em Biological Cybernetics}, 69(5-6):503--515, 1993.
+
 \bibitem{gollisch_rapid_2008}
 Tim Gollisch and Markus Meister.
 \newblock Rapid {Neural} {Coding} in the {Retina} with {Relative} {Spike}
