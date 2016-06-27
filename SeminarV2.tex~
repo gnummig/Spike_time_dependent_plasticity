@@ -83,8 +83,9 @@ Proposed theoretically in 1971 by Chua \cite{chua_memristor-missing_1971} and ev
 The type of memristor found by strukov had in fact nothing to do with magnetism, but the memristic effect was created by doping ions drifting in a semiconductive layer of Titanium oxide.
 What makes the memristor exceptionally interesting, is that it retains the property of 'memorizing' the charge that has flown through it by moving the dopant ions from the conductive area to a less conductive area according to the voltage across it, thus changing its resistence. The memristor stores its history in its resistence, leading to the word memristor is a combination of the words 'memory' and 'resistor'.
 The effect is reversed when reversing the voltage across the memristor leaving it unchanged by a symmetric alternating signal giving the possibility to read the value of the memristor without changing it.
+At the moment it is possible to reliably distinguish between ten values stored in one memristor  
 \subsection{Memristor arrays}
-This property of 'learning' form the past is very anlog to the plasticity of synapses. It has been proposed to use memristor arrays to store the the weights of a 
+This property of 'learning' form the past is very analog to the plasticity of synapses. It has been proposed to use memristor arrays to store the the weights of a neural network right on the connection of artificial neurons, leading to a very much nature like model.
 % ****************************************************************************
 % BIBLIOGRAPHY AREA
 % ****************************************************************************
