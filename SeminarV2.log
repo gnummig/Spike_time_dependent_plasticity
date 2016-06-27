@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2015.3.23)  26 JUN 2016 14:28
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.1.28)  27 JUN 2016 16:16
 entering extended mode
  %&-line parsing enabled.
 **SeminarV2.tex
@@ -169,15 +169,24 @@ input line 52.
 
 
 Package natbib Warning: Citation `kleinfelder_10000_2001' on page 1 undefined o
-n input line 67.
+n input line 68.
 
 
 Package natbib Warning: Citation `mallik_temporal_2005' on page 1 undefined on 
-input line 69.
+input line 70.
 
 [1
 
-] (./SeminarV2.bbl
+]
+
+Package natbib Warning: Citation `chua_memristor-missing_1971' on page 2 undefi
+ned on input line 76.
+
+
+Package natbib Warning: Citation `chua_memristor-missing_1971' on page 2 undefi
+ned on input line 78.
+
+[2] (./SeminarV2.bbl
 
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `latin1'.
@@ -210,14 +219,14 @@ or \DeclareInputMath before using this key.
 
 Package natbib Warning: There were undefined citations.
 
-[2] (./SeminarV2.aux) ) 
+[3] (./SeminarV2.aux) ) 
 Here is how much of TeX's memory you used:
- 1869 strings out of 494851
- 21743 string characters out of 1176012
- 75819 words of memory out of 3000000
- 5085 multiletter control sequences out of 15000+50000
- 9864 words of font info for 37 fonts, out of 3000000 for 9000
+ 1875 strings out of 494851
+ 21832 string characters out of 1176012
+ 76819 words of memory out of 3000000
+ 5091 multiletter control sequences out of 15000+50000
+ 10918 words of font info for 42 fonts, out of 3000000 for 9000
  99 hyphenation exceptions out of 8191
  27i,7n,24p,917b,205s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on SeminarV2.dvi (2 pages, 8084 bytes).
+Output written on SeminarV2.dvi (3 pages, 10356 bytes).
