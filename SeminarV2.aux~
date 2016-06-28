@@ -1,0 +1,31 @@
+\relax 
+\citation{thorpe_spike-based_2012}
+\citation{lichtsteiner_128_2008}
+\citation{}
+\citation{jo_high-density_2009}
+\citation{thorpe_biological_1989}
+\citation{bialek_reading_1991}
+\citation{gerstner_why_1993}
+\citation{gollisch_rapid_2008}
+\citation{thorpe_spike-based_2012}
+\citation{kleinfelder_10000_2001}
+\citation{lichtsteiner_128_2008}
+\citation{mallik_temporal_2005}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Biological Vision and its spike-timing-based component}{1}}
+\citation{chua_memristor-missing_1971}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Silicon retina}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Adress-event representation (AER)}{2}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Memristive Neural Networks}{2}}
+\citation{chua_memristor-missing_1971}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Memristor}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Memristor arrays and neuromorphic systems}{3}}
+\bibstyle{unsrt}
+\bibdata{SeminarV2.bib}
+\bibcite{thorpe_spike-based_2012}{{1}{}{{}}{{}}}
+\bibcite{lichtsteiner_128_2008}{{2}{}{{}}{{}}}
+\bibcite{thorpe_biological_1989}{{3}{}{{}}{{}}}
+\bibcite{bialek_reading_1991}{{4}{}{{}}{{}}}
+\bibcite{gerstner_why_1993}{{5}{}{{}}{{}}}
+\bibcite{gollisch_rapid_2008}{{6}{}{{}}{{}}}
+\providecommand\NAT@force@numbers{}\NAT@force@numbers
+\@writefile{toc}{\contentsline {section}{\numberline {4}Discussion}{4}}

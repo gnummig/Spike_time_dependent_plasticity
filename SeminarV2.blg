@@ -2,46 +2,47 @@ This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: SeminarV2.aux
 The style file: unsrt.bst
 Database file #1: SeminarV2.bib.bib
-Warning--I didn't find a database entry for ""
-You've used 6 entries,
+Warning--there's a number but no volume in linares-barranco_memristance_2009
+Warning--empty year in zdenek_biolek_spice_????
+You've used 15 entries,
             1791 wiz_defined-function locations,
-            493 strings with 4771 characters,
-and the built_in function-call counts, 1842 in all, are:
-= -- 181
-> -- 67
-< -- 3
-+ -- 24
-- -- 18
-* -- 146
-:= -- 276
-add.period$ -- 21
-call.type$ -- 6
-change.case$ -- 6
+            548 strings with 6405 characters,
+and the built_in function-call counts, 4283 in all, are:
+= -- 401
+> -- 177
+< -- 5
++ -- 64
+- -- 49
+* -- 344
+:= -- 643
+add.period$ -- 47
+call.type$ -- 15
+change.case$ -- 15
 chr.to.int$ -- 0
-cite$ -- 6
-duplicate$ -- 77
-empty$ -- 175
-format.name$ -- 18
-if$ -- 415
+cite$ -- 17
+duplicate$ -- 174
+empty$ -- 404
+format.name$ -- 49
+if$ -- 952
 int.to.chr$ -- 0
-int.to.str$ -- 6
-missing$ -- 6
-newline$ -- 34
-num.names$ -- 8
-pop$ -- 12
+int.to.str$ -- 15
+missing$ -- 14
+newline$ -- 78
+num.names$ -- 17
+pop$ -- 34
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 40
+skip$ -- 95
 stack$ -- 0
-substring$ -- 168
-swap$ -- 24
-text.length$ -- 3
+substring$ -- 384
+swap$ -- 52
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 21
-width$ -- 7
-write$ -- 73
-(There was 1 warning)
+warning$ -- 2
+while$ -- 46
+width$ -- 17
+write$ -- 167
+(There were 2 warnings)

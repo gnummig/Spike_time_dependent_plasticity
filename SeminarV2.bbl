@@ -1,13 +1,13 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{thorpe_spike-based_2012}
 Simon~J. Thorpe.
 \newblock Spike-{Based} {Image} {Processing}: {Can} {We} {Reproduce}
   {Biological} {Vision} in {Hardware}?
 \newblock In Andrea Fusiello, Vittorio Murino, and Rita Cucchiara, editors,
-  {\em Computer {Vision} – {ECCV} 2012. {Workshops} and {Demonstrations}},
-  number 7583 in Lecture {Notes} in {Computer} {Science}, pages 516--521.
-  Springer Berlin Heidelberg, October 2012.
+  {\em Computer {Vision} {\textendash} {ECCV} 2012. {Workshops} and
+  {Demonstrations}}, number 7583 in Lecture {Notes} in {Computer} {Science},
+  pages 516--521. Springer Berlin Heidelberg, October 2012.
 \newblock DOI: 10.1007/978-3-642-33863-2\_53.
 
 \bibitem{lichtsteiner_128_2008}
@@ -16,6 +16,12 @@ P.~Lichtsteiner, C.~Posch, and T.~Delbruck.
   {Temporal} {Contrast} {Vision} {Sensor}.
 \newblock {\em IEEE Journal of Solid-State Circuits}, 43(2):566--576, February
   2008.
+
+\bibitem{jo_high-density_2009}
+Sung~Hyun Jo, Kuk-Hwan Kim, and Wei Lu.
+\newblock High-{Density} {Crossbar} {Arrays} {Based} on a {Si} {Memristive}
+  {System}.
+\newblock {\em Nano Letters}, 9(2):870--874, February 2009.
 
 \bibitem{thorpe_biological_1989}
 Simon~J. Thorpe and Michel Imbert.
@@ -39,5 +45,53 @@ Tim Gollisch and Markus Meister.
 \newblock Rapid {Neural} {Coding} in the {Retina} with {Relative} {Spike}
   {Latencies}.
 \newblock {\em Science}, 319(5866):1108--1111, February 2008.
+
+\bibitem{kleinfelder_10000_2001}
+S.~Kleinfelder, SukHwan Lim, Xinqiao Liu, and A.~El Gamal.
+\newblock A 10000 frames/s {CMOS} digital pixel sensor.
+\newblock {\em IEEE Journal of Solid-State Circuits}, 36(12):2049--2059,
+  December 2001.
+
+\bibitem{mallik_temporal_2005}
+U.~Mallik, M.~Clapp, E.~Choi, G.~Cauwenberghs, and R.~Etienne-Cummings.
+\newblock Temporal change threshold detection imager.
+\newblock In {\em {ISSCC}. 2005 {IEEE} {International} {Digest} of {Technical}
+  {Papers}. {Solid}-{State} {Circuits} {Conference}, 2005.}, pages 362--603
+  Vol. 1, February 2005.
+
+\bibitem{jo_nanoscale_2010}
+Sung~Hyun Jo, Ting Chang, Idongesit Ebong, Bhavitavya~B. Bhadviya, Pinaki
+  Mazumder, and Wei Lu.
+\newblock Nanoscale {Memristor} {Device} as {Synapse} in {Neuromorphic}
+  {Systems}.
+\newblock {\em Nano Letters}, 10(4):1297--1301, April 2010.
+
+\bibitem{chua_memristor-missing_1971}
+L.~Chua.
+\newblock Memristor-{The} missing circuit element.
+\newblock {\em IEEE Transactions on Circuit Theory}, 18(5):507--519, September
+  1971.
+
+\bibitem{strukov_missing_2008}
+Dmitri~B. Strukov, Gregory~S. Snider, Duncan~R. Stewart, and R.~Stanley
+  Williams.
+\newblock The missing memristor found.
+\newblock {\em Nature}, 453(7191):80--83, May 2008.
+
+\bibitem{nima_taherinejad_memristors_????}
+{Nima TaheriNejad}, {P. D. Sai Manoj}, and {Axel Jantsch}.
+\newblock Memristors' {Potential} for {Multi}-bit {Storage} and {Pattern}
+  {Learning}.
+
+\bibitem{linares-barranco_memristance_2009}
+Bernab{\'e} Linares-Barranco and Teresa Serrano-Gotarredona.
+\newblock Memristance can explain {Spike}-{Time}-{Dependent}-{Plasticity} in
+  {Neural} {Synapses}.
+\newblock {\em Nature Precedings}, (713), March 2009.
+
+\bibitem{zdenek_biolek_spice_????}
+{Zdenek Biolek}, Dalibor Biolek, and Viera Biolkov{\'a}.
+\newblock Spice {Model} of {Memristor} {With} {Nonlinear} {Dopant} {Drift}.
+\newblock {\em Radioengineering}, pages 210--214.
 
 \end{thebibliography}
