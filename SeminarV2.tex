@@ -79,13 +79,18 @@ One reason could be that computer vision is only becoming popular now that compu
 In current Computer hardware storage of information and computation are done in seperate units, whereas in nature a neuron is computational unit that keeps its information in the synapses to other neurons. Thus modelling the brain on a computer amongst others inefficient, because the weightings need to be retrieved from ram as opposed to being right in place. A spike signal would have to be simulated on hardware that is foreign to the notion of spikes and relative timing, but abides in the realm of clocked binary logic. To overcome the these constraints, the recent discovery of the yet forseen \cite{chua_memristor-missing_1971} fourth two-terminal canonical circuit element named memristor has lead computational neuroscientsts to dream of implementing a neuronal network direktly on chip.
 
 \subsection{Memristor}
-Proposed theoretically in 1971 by Chua \cite{chua_memristor-missing_1971} and eventually found in 2008 by Strukov et al, the memristor is a electrical component that relates charge $q$ to magnetic flux $M$. It is supposed, that it took nearly 40 years to experimentally prove Chuas prediction, because people were simply searching in the wrong place, misslead by the erroneous assumption that it had to be something dealing with magnetism, infered from that it related the magnetic flux.
-The type of memristor found by strukov had in fact nothing to do with magnetism, but the memristic effect was created by doping ions drifting in a semiconductive layer of Titanium oxide.
-What makes the memristor exceptionally interesting, is that it retains the property of 'memorizing' the charge that has flown through it by moving the dopant ions from the conductive area to a less conductive area according to the voltage across it, thus changing its resistence. The memristor stores its history in its resistence, leading to the word memristor is a combination of the words 'memory' and 'resistor'.
+Proposed theoretically in 1971 by Chua \cite{chua_memristor-missing_1971} and eventually identified in 2008 by Strukov et al, the memristor is a electrical component that relates charge $q$ to magnetic flux $\varphi$. It is supposed, that it took nearly 40 years to experimentally prove Chuas prediction, because people were simply searching in the wrong place, misslead by the erroneous assumption that it had to be something dealing with magnetism, infered from that it related the magnetic flux.
+The type of memristor found by Strukov had in fact nothing to do with magnetism, but the effect was created by dopant ions drifting in a thin layer of titanium dioxide.
+What makes the memristor exceptionally interesting, is that it retains the property of 'memorizing' the charge that has flown through. this happens by moving the dopant ions through the titanium dioxide according to the voltage across it, thus changing its resistence by changing the size of the volume that is made more condutive through the dopant. The memristor stores its history in its resistence, giving it the name memristor is a contraction of the words 'memory' and 'resistor'.
 The effect is reversed when reversing the voltage across the memristor leaving it unchanged by a symmetric alternating signal giving the possibility to read the value of the memristor without changing it.
-At the moment it is possible to reliably distinguish between ten values stored in one memristor  
+At the moment it is possible to reliably distinguish between ten values stored in one memristor, apart from that memristor arrays can be manufactured much denser than  NAND flash or magnetic hard drives, leading to an even higher storage density than what is physically possible with present-day storage techniques.
 \subsection{Memristor arrays}
-This property of 'learning' form the past is very analog to the plasticity of synapses. It has been proposed to use memristor arrays to store the the weights of a neural network right on the connection of artificial neurons, leading to a very much nature like model.
+This property of 'learning' form the past is very similar to the plasticity of synapses. It has been proposed to use memristor arrays as synapses for artificial neural networks.
+
+\iffalse
+there are 10e11 neurons in the human brain, each having up to 15.000 synapses thus 10e15 synapses which is equivalent to petabyte
+\end
+
 % ****************************************************************************
 % BIBLIOGRAPHY AREA
 % ****************************************************************************
